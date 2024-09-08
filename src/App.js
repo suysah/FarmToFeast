@@ -3,7 +3,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import FarmerDashboard from "./pages/FarmerDashboard";
 import ConsumerDashboard from "./pages/ConsumerDashboard";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";x
 import Register from "./pages/Register";
 import HomePage from "./pages/Homepage";
 import Login from "./pages/Login";
@@ -22,7 +22,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </Router>
   );
 }

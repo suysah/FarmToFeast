@@ -8,7 +8,7 @@ const Home = () => {
       <main className={styles.homepage}>
         <PageNav />
         <section>
-          <h2>Welcome to FarmToFeast</h2>
+          <h2>Welcome to Farm2Feast</h2>
           <p>
             Connecting farmers and consumers for a better agricultural
             ecosystem.

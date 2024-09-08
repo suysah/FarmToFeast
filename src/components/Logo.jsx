@@ -10,7 +10,7 @@ function Logo() {
           alt="FarmtoFeast logo"
           className={styles.logo}
         />
-        <span>FarmToFeast</span>
+        <span>Farm2Feast</span>
       </div>
     </Link>
   );

@@ -1,0 +1,184 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+      "name": "Fresh Apples",
+      "type": "Fruit",
+      "price": 3.99,
+      "farmer": "John Doe",
+      "harvestDate": "2024-08-30T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+      "name": "Organic Carrots",
+      "type": "Vegetable",
+      "price": 2.49,
+      "farmer": "Jane Smith",
+      "harvestDate": "2024-09-02T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+      "name": "Golden Potatoes",
+      "type": "Vegetable",
+      "price": 1.99,
+      "farmer": "Bob Brown",
+      "harvestDate": "2024-08-28T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+      "name": "Strawberries",
+      "type": "Fruit",
+      "price": 4.99,
+      "farmer": "Alice Green",
+      "harvestDate": "2024-08-25T00:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+      "name": "Sweet Corn",
+      "type": "Grain",
+      "price": 3.29,
+      "farmer": "Chris White",
+      "harvestDate": "2024-08-31T00:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+      "name": "Spinach",
+      "type": "Leafy Green",
+      "price": 2.79,
+      "farmer": "Emily Clark",
+      "harvestDate": "2024-08-27T00:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+      "name": "Red Bell Peppers",
+      "type": "Vegetable",
+      "price": 3.49,
+      "farmer": "Michael Johnson",
+      "harvestDate": "2024-09-01T00:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+      "name": "Blueberries",
+      "type": "Fruit",
+      "price": 5.99,
+      "farmer": "Sarah Thompson",
+      "harvestDate": "2024-08-24T00:00:00.000Z"
+    },
+    {
+      "id": 9,
+      "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+      "name": "Zucchini",
+      "type": "Vegetable",
+      "price": 1.89,
+      "farmer": "James Wilson",
+      "harvestDate": "2024-08-26T00:00:00.000Z"
+    },
+    {
+      "id": 10,
+      "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+      "name": "Cucumbers",
+      "type": "Vegetable",
+      "price": 2.19,
+      "farmer": "Laura Davis",
+      "harvestDate": "2024-08-29T00:00:00.000Z"
+    },
+    {
+      "id": 11,
+      "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+      "name": "Peaches",
+      "type": "Fruit",
+      "price": 4.49,
+      "farmer": "Peter Harris",
+      "harvestDate": "2024-08-22T00:00:00.000Z"
+    },
+    {
+      "id": 12,
+      "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+      "name": "Kale",
+      "type": "Leafy Green",
+      "price": 3.59,
+      "farmer": "Mary Robinson",
+      "harvestDate": "2024-08-21T00:00:00.000Z"
+    },
+    {
+      "id": 13,
+      "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+      "name": "Eggplants",
+      "type": "Vegetable",
+      "price": 2.99,
+      "farmer": "Anna Lopez",
+      "harvestDate": "2024-08-30T00:00:00.000Z"
+    },
+    {
+      "id": 14,
+      "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+      "name": "Pineapples",
+      "type": "Fruit",
+      "price": 5.49,
+      "farmer": "George King",
+      "harvestDate": "2024-09-03T00:00:00.000Z"
+    },
+    {
+      "id": 15,
+      "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+      "name": "Green Beans",
+      "type": "Vegetable",
+      "price": 1.99,
+      "farmer": "Betty Carter",
+      "harvestDate": "2024-09-02T00:00:00.000Z"
+    },
+    {
+      "id": 16,
+      "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+      "name": "Broccoli",
+      "type": "Vegetable",
+      "price": 2.89,
+      "farmer": "Tom Phillips",
+      "harvestDate": "2024-08-20T00:00:00.000Z"
+    },
+    {
+      "id": 17,
+      "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+      "name": "Watermelons",
+      "type": "Fruit",
+      "price": 6.99,
+      "farmer": "Rebecca Scott",
+      "harvestDate": "2024-08-23T00:00:00.000Z"
+    },
+    {
+      "id": 18,
+      "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+      "name": "Raspberries",
+      "type": "Fruit",
+      "price": 7.99,
+      "farmer": "Nicholas Lewis",
+      "harvestDate": "2024-09-01T00:00:00.000Z"
+    },
+    {
+      "id": 19,
+      "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+      "name": "Butternut Squash",
+      "type": "Vegetable",
+      "price": 3.49,
+      "farmer": "Daniel Walker",
+      "harvestDate": "2024-08-19T00:00:00.000Z"
+    },
+    {
+      "id": 20,
+      "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+      "name": "Cherries",
+      "type": "Fruit",
+      "price": 8.99,
+      "farmer": "Nancy Martinez",
+      "harvestDate": "2024-08-18T00:00:00.000Z"
+    }
+  ]
+}

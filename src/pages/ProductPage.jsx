@@ -1,11 +1,14 @@
 import React from "react";
 import PageNav from "../components/PageNav";
+import ProductList from "../components/ProductList";
 
 const ProductPage = () => {
   return (
     <main>
       <PageNav />
-      <section>Product</section>
+      <section>
+        <ProductList />
+      </section>
     </main>
   );
 };
