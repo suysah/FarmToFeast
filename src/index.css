@@ -11,16 +11,75 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+/* Taken from getting started guide at: https://leafletjs.com/examples/quick-start/ */
+@import "https://unpkg.com/leaflet@1.7.1/dist/leaflet.css";
+@import "https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap";
 
-body {
-  font-family: Arial, sans-serif;
+/* These CSS variables are global, so they are available in all CSS modules */
+:root {
+  --color-btn: #00c46a;
+
+  --color-dark--0: #242a2e;
+  --color-dark--1: #2d3439;
+  --color-dark--2: #42484d;
+  --color-light--1: #aaa;
+  --color-light--2: #ececec;
+  --color-light--3: #d6dee0;
+}
+* {
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  box-sizing: border-box;
 }
 
-nav {
-  background-color: #4caf50;
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--color-light--2);
+  background-color: var(--color-dark--0);
+}
+
+label {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.8rem 1.2rem;
+  font-family: inherit;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--color-light--3);
+  transition: all 0.2s;
+}
+
+input:focus {
+  outline: none;
+  background-color: #fff;
+}
+
+.cta:link,
+.cta:visited {
+  display: inline-block;
+  background-color: var(--color-brand--2);
+  color: var(--color-dark--1);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1rem 3rem;
+  border-radius: 5px;
+}
+
+/*
+
+/* nav {
   padding: 1em;
 }
 
@@ -37,20 +96,15 @@ nav ul li {
 nav ul li a {
   color: white;
   text-decoration: none;
-}
+} */
 
-h2 {
-  text-align: center;
-  color: #333;
-}
-
-button {
+/* button {
   background-color: #4caf50;
   color: white;
   border: none;
-  padding: 0.5em 1em;
+  padding: 0.5rem 1rem;
   cursor: pointer;
-}
+} */
 
 button:hover {
   background-color: #45a049;
@@ -64,9 +118,9 @@ button:hover {
 
 .product-card {
   border: 1px solid #ddd;
-  padding: 1em;
-  margin: 1em;
-  width: 300px;
+  padding: 1rem;
+  margin: 1rem;
+  width: 30rem;
   background-color: white;
 }
 
@@ -74,7 +128,7 @@ footer {
   background-color: #333;
   color: white;
   text-align: center;
-  padding: 1em;
+  padding: 1rem;
   position: absolute;
   width: 100%;
   bottom: 0;
