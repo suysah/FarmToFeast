@@ -1,20 +1,24 @@
-.productPage {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-
 .ProductList {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
+
+  & h1 {
+    margin-bottom: 1rem;
+  }
 }
 
-.heading{
+.heading {
   font-size: 3rem;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  overflow-y: scroll;
+  height: 84vh;
 }

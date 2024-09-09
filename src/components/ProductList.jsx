@@ -25,7 +25,9 @@ const ProductList = () => {
 
   return (
     <div className={styles.ProductList}>
-      <div>
+      <h1>Available Products</h1>
+
+      <div className={styles.cardContainer}>
         {products.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
