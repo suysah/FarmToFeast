@@ -2,12 +2,16 @@
   color: inherit;
   text-transform: uppercase;
   padding: 0.8rem 1.6rem;
+  margin-top: 1rem;
   font-family: inherit;
   font-size: 1.5rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  background-color: var(--color-btn);
+  font-weight: 600;
 }
+
 
 .primary {
   font-weight: 700;

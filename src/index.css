@@ -38,6 +38,7 @@ html {
 }
 
 body {
+  font-family: 'Manrope', sans-serif;
   color: var(--color-light--2);
   background-color: var(--color-dark--0);
 }
