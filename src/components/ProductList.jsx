@@ -25,7 +25,6 @@ const ProductList = () => {
 
   return (
     <div className={styles.ProductList}>
-      {/* <h2>Available Products</h2> */}
       <div>
         {products.map((product) => (
           <ProductCard key={product.id} product={product} />
