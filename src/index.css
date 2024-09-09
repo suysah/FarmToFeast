@@ -40,6 +40,8 @@ html {
 body {
   color: var(--color-light--2);
   background-color: var(--color-dark--0);
+  /* padding: 2rem; */
+  box-sizing: border-box;
 }
 
 label {
@@ -76,35 +78,6 @@ input:focus {
   padding: 1rem 3rem;
   border-radius: 5px;
 }
-
-/*
-
-/* nav {
-  padding: 1em;
-}
-
-nav ul {
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
-}
-
-nav ul li {
-  color: white;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-} */
-
-/* button {
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-} */
 
 footer {
   background-color: #333;

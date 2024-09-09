@@ -4,9 +4,9 @@
   margin: 1rem;
   width: 30rem;
   background-color: var(--color-dark--1);
-}
 
-img {
-  height: 10rem;
-  width: 10rem;
+  & img {
+    height: 10rem;
+    width: 10rem;
+  }
 }

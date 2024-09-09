@@ -1,5 +1,53 @@
-.consumerDashboard {
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  width: 100vw;
+  padding-top: 1rem;
+}
+
+.dashboardHeading {
+  margin-bottom: 4rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.consumerDashboardContainer {
+  padding: 2rem;
+}
+
+.consumerAvailableCropContainer {
+  color: var(--color-light--3);
+  gap: 1rem;
+  padding: 2rem;
+  height: 85vh;
+  overflow-y: scroll;
+}
+
+.dashboaedBtn {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
+  padding-top: 4rem;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+
+  & img {
+    height: 10rem;
+    width: 10rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+  }
 }
