@@ -10,8 +10,8 @@
   cursor: pointer;
   background-color: var(--color-btn);
   font-weight: 600;
+  width: max-content;
 }
-
 
 .primary {
   font-weight: 700;

@@ -1,88 +1,50 @@
-import React, { useState } from "react";
+import React from "react";
 import PageNav from "../components/PageNav";
 import styles from "./FarmerDashboard.module.css";
+import { NavLink, Outlet } from "react-router-dom";
 
 const FarmerDashboard = () => {
-  const [products, setProducts] = useState([]);
-  const [newProduct, setNewProduct] = useState({
-    name: "",
-    type: "",
-    price: "",
-    harvestDate: "",
-  });
-
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setNewProduct({ ...newProduct, [name]: value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Submit product to backend
-    fetch("/api/products", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(newProduct),
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        setProducts([...products, data]);
-        setNewProduct({ name: "", type: "", price: "", harvestDate: "" });
-      });
-  };
-
   return (
     <main>
       <PageNav />
-      <div className={styles.farmerDashboard}>
-        <h2>Farmer Dashboard</h2>
-        <h3>Add New Crop</h3>
-        <form onSubmit={handleSubmit}>
-          <input
-            type="text"
-            name="name"
-            placeholder="Crop Name"
-            value={newProduct.name}
-            onChange={handleInputChange}
-            required
-          />
-          <input
-            type="text"
-            name="type"
-            placeholder="Type (Organic/Conventional)"
-            value={newProduct.type}
-            onChange={handleInputChange}
-            required
-          />
-          <input
-            type="number"
-            name="price"
-            placeholder="Price"
-            value={newProduct.price}
-            onChange={handleInputChange}
-            required
-          />
-          <input
-            type="date"
-            name="harvestDate"
-            placeholder="Harvest Date"
-            value={newProduct.harvestDate}
-            onChange={handleInputChange}
-            required
-          />
-          <button type="submit">Add Crop</button>
-        </form>
+      <section className={styles.gridContainer}>
+        <div className={styles.consumerDashboardContainer}>
+          <h2 className={styles.dashboardHeading}>Suyash Dashboard</h2>
+          <div className={styles.userInfo}>
+            <img
+              src="https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww"
+              alt="Consumer profile Pic"
+            />
+            <h2>Suyash Nagar</h2>
+            <h3>Suyashnagar813@gmail.comn</h3>
+          </div>
+          <div className={styles.dashboaedBtn}>
+            <nav className={styles.nav}>
+              <ul>
+                <li>
+                  <NavLink to="chat">My Chat</NavLink>
+                </li>
+                <li>
+                  <NavLink to="myCrop">My Crop</NavLink>
+                </li>
+                <li>
+                  <NavLink to="addCrop">Add Crop</NavLink>
+                </li>
 
-        <h3>Your Crops</h3>
-        <ul>
-          {products.map((product) => (
-            <li key={product.id}>
-              {product.name} - {product.type} - ${product.price} -{" "}
-              {new Date(product.harvestDate).toDateString()}
-            </li>
-          ))}
-        </ul>
-      </div>
+                <li>
+                  <NavLink to="contracts">Your Conracts</NavLink>
+                </li>
+                <li>
+                  <NavLink to="farmerConnect">farmer Connect</NavLink>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div className={styles.consumerAvailableCropContainer}>
+          <Outlet />
+        </div>
+      </section>
     </main>
   );
 };

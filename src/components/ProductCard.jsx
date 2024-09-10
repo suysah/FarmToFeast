@@ -1,9 +1,10 @@
 import React from "react";
 import styles from "./ProductCard.module.css";
 import btnStyles from "../components/Button.module.css";
+import Button from "./Button ";
 
 const ProductCard = ({ product }) => {
-  console.log("from product caerd", product);
+  // console.log("from product caerd", product);
 
   return (
     <main>
@@ -26,9 +27,9 @@ const ProductCard = ({ product }) => {
             <span style={{ fontWeight: 600 }}>Harvest Date:</span>{" "}
             {new Date(product.harvestDate).toDateString()}
           </p>
-          <div className={styles.buttons}>
-            <button className={`${btnStyles.btn}`}>Pre-book</button>
-            <button className={`${btnStyles.btn}`}>Details</button>
+          <div className={styles.buttonContainer}>
+            <Button type="primary">Book</Button>
+            <Button type="primary">Details</Button>
           </div>
         </div>
       </div>

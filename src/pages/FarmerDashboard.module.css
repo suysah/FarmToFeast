@@ -4,3 +4,95 @@
   justify-content: center;
   flex-direction: column;
 }
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  width: 100vw;
+  padding-top: 1rem;
+}
+
+.dashboardHeading {
+  margin-bottom: 4rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.consumerDashboardContainer {
+  padding: 2rem;
+}
+
+.consumerAvailableCropContainer {
+  color: var(--color-light--3);
+  gap: 1rem;
+  /* padding: 2rem; */
+  height: 86vh;
+  width: 66vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.dashboaedBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+
+  & img {
+    height: 10rem;
+    width: 10rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.nav ul {
+  flex-direction: column;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  color: var(--color-light--2);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* CSS Modules feature */
+.nav a:global(.active) {
+  color: var(--color-btn);
+}
+
+a.ctaLink:link,
+a.ctaLink:visited {
+  background-color: var(--color-btn);
+  color: var(--color-light--2);
+  padding: 0.8rem 2rem;
+  border-radius: 7px;
+}

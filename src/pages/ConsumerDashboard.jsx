@@ -1,30 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import PageNav from "../components/PageNav";
-import Button from "../components/Button ";
 import styles from "./ConsumerDashboard.module.css";
-import ProductList from "../components/ProductList";
+import { NavLink, Outlet } from "react-router-dom";
 
 const ConsumerDashboard = () => {
-  const [products, setProducts] = useState([]);
-
-  useEffect(() => {
-    // Fetch products from backend
-    async function fetchProduct() {
-      try {
-        const res = await fetch("http://localhost:8000/products");
-        if (!res.ok) {
-          throw new Error("Error while Fetching data");
-        }
-        const data = await res.json();
-        console.log(data);
-        setProducts(data);
-      } catch (error) {
-        console.log(error);
-      }
-    }
-    fetchProduct();
-  }, []);
-
   return (
     <main>
       <PageNav />
@@ -40,14 +19,27 @@ const ConsumerDashboard = () => {
             <h3>Suyashnagar813@gmail.comn</h3>
           </div>
           <div className={styles.dashboaedBtn}>
-            <Button type="back">your Chat</Button>
-            <Button type="back">View Crop Updates</Button>
-            <Button type="back">Browse Available Crops</Button>
-            <Button type="back">Your Contracts</Button>
+            <nav className={styles.nav}>
+              <ul>
+                <li>
+                  <NavLink to="chat">Your Chat</NavLink>
+                </li>
+                <li>
+                  <NavLink to="cropUpdates">View Crop Updates</NavLink>
+                </li>
+                <li>
+                  <NavLink to="products">Browse Available Crops</NavLink>
+                </li>
+
+                <li>
+                  <NavLink to="contracts">Your Conracts</NavLink>
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
         <div className={styles.consumerAvailableCropContainer}>
-          <ProductList />
+          <Outlet />
         </div>
       </section>
     </main>
