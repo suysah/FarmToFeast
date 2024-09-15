@@ -3,4 +3,32 @@
   justify-content: center;
   align-items: center;
   height: 85vh;
+  width: 66vw;
+}
+
+
+.seller_chat_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.chatBox{
+  width: 100%;
+}
+
+.back_button {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ff5e57;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #ff4040;
 }
