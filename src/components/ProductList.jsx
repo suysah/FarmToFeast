@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import ProductCard from "./ProductCard";
 import styles from "./ProductList.module.css";
+import Button from "./Button ";
 
 const ProductList = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    // Fetch products from backend
     async function fetchProduct() {
       try {
         const res = await fetch("http://localhost:8000/products");
@@ -14,7 +14,6 @@ const ProductList = () => {
           throw new Error("Error while Fetching data");
         }
         const data = await res.json();
-        console.log(data);
         setProducts(data);
       } catch (error) {
         console.log(error);
@@ -29,7 +28,10 @@ const ProductList = () => {
 
       <div className={styles.cardContainer}>
         {products.map((product) => (
-          <ProductCard key={product.id} product={product} />
+          <ProductCard key={product.id} product={product}>
+            <Button type="primary">Book</Button>
+            <Button type="primary">Details</Button>
+          </ProductCard>
         ))}
       </div>
     </div>

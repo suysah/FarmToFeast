@@ -1,0 +1,42 @@
+.contractDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.subContainer {
+  margin: 4rem 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 1rem;
+  background-color: #fddeb8;
+  color: var(--color-dark--0);
+  height: 70vh;
+  width: 40rem;
+  padding: 4rem;
+  border: 2px solid #fdb864;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  border-radius: 2rem;
+
+  & h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+  }
+}
+
+span {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  /* font-size: 2rem; */
+}
+
+.contractBtn {
+  display: flex;
+  justify-content: space-around;
+}

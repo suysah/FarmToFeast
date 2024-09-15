@@ -1,7 +1,174 @@
 {
+  "consumer": [
+    {
+      "id": "200",
+      "name": "ram",
+      "address": "mandideep Bhopal",
+      "password": "helllo",
+      "confirmpassword": "helllo",
+      "email": "ram@gmail.com",
+      "phone": "7983s7289",
+      "cropupdates": [
+        {
+          "id": "1",
+          "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+          "name": "Fresh Apples",
+          "type": "Fruit",
+          "price": 3.99,
+          "farmer": "suyash",
+          "harvestDate": "2024-08-30T00:00:00.000Z"
+        },
+        {
+          "id": "2",
+          "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+          "name": "Organic Carrots",
+          "type": "Vegetable",
+          "price": 2.49,
+          "farmer": "suyash",
+          "harvestDate": "2024-09-02T00:00:00.000Z"
+        }
+      ],
+      "contract": [
+        {
+          "id": "1",
+          "cropid": "3",
+          "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+          "name": "Golden Potatoes",
+          "type": "Vegetable",
+          "price": 1.99,
+          "farmername": "suyash nagar",
+          "farmerId": "100",
+          "consumername": "ram",
+          "harvestDate": "2024-08-28T00:00:00.000Z",
+          "quantity": 20
+        },
+        {
+          "id": "2",
+          "cropid": "3",
+          "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+          "name": "Organic Carrots",
+          "type": "Vegetable",
+          "price": 2.49,
+          "farmername": "second nagar",
+          "farmerId": "101",
+          "consumername": "ram",
+          "harvestDate": "2024-08-28T00:00:00.000Z",
+          "quantity": 40
+        }
+      ]
+    }
+  ],
+  "Farmer": [
+    {
+      "id": "100",
+      "name": "Suyash nagar",
+      "address": "mandideep Bhopal",
+      "password": "helllo",
+      "confirmpassword": "helllo",
+      "email": "suyashnagae81@gmail.com",
+      "phone": "79837289",
+      "crops": [
+        {
+          "id": "1",
+          "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+          "name": "Fresh Apples",
+          "type": "Fruit",
+          "price": 3.99,
+          "farmer": "suyash",
+          "harvestDate": "2024-08-30T00:00:00.000Z"
+        },
+        {
+          "id": "2",
+          "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+          "name": "Organic Carrots",
+          "type": "Vegetable",
+          "price": 2.49,
+          "farmer": "suyash",
+          "harvestDate": "2024-09-02T00:00:00.000Z"
+        }
+      ],
+      "contract": [
+        {
+          "id": "1",
+          "cropid": "3",
+          "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+          "name": "Golden Potatoes",
+          "type": "Vegetable",
+          "price": 1.99,
+          "farmername": "suyash",
+          "consumername": "jatin",
+          "harvestDate": "2024-08-28T00:00:00.000Z",
+          "quantity": 20
+        },
+        {
+          "id": "2",
+          "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+          "name": "Organic Carrots",
+          "type": "Vegetable",
+          "price": 2.49,
+          "farmername": "suyash",
+          "consumername": "jatinininin",
+          "harvestDate": "2024-08-28T00:00:00.000Z",
+          "quantity": 40
+        }
+      ]
+    },
+    {
+      "id": "101",
+      "name": "second nagar",
+      "address": "Delhi Bhopal",
+      "password": "helllo",
+      "confirmpassword": "helllo",
+      "email": "suyashnagaesdfgfg81@gmail.com",
+      "phone": "79837289",
+      "crops": [
+        {
+          "id": "1",
+          "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+          "name": "Fresh Apples",
+          "type": "Fruit",
+          "price": 3.99,
+          "farmer": "John Doe",
+          "harvestDate": "2024-08-30T00:00:00.000Z"
+        },
+        {
+          "id": "2",
+          "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+          "name": "Organic Carrots",
+          "type": "Vegetable",
+          "price": 2.49,
+          "farmer": "Jane Smith",
+          "harvestDate": "2024-09-02T00:00:00.000Z"
+        },
+        {
+          "id": "4",
+          "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+          "name": "Strawberries",
+          "type": "Fruit",
+          "price": 4.99,
+          "farmer": "Alice Green",
+          "harvestDate": "2024-08-25T00:00:00.000Z"
+        }
+      ],
+      "contract": [
+        {
+          "id": "1",
+          "cropid": "3",
+          "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
+          "name": "Golden Potatoes",
+          "type": "Vegetable",
+          "price": 1.99,
+          "farmername": "suyash",
+          "consumername": "jatin",
+          "harvestDate": "2024-08-28T00:00:00.000Z",
+          "quantity": 20
+        }
+      ]
+    }
+  ],
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
       "name": "Fresh Apples",
       "type": "Fruit",
@@ -10,7 +177,7 @@
       "harvestDate": "2024-08-30T00:00:00.000Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
       "name": "Organic Carrots",
       "type": "Vegetable",
@@ -19,16 +186,7 @@
       "harvestDate": "2024-09-02T00:00:00.000Z"
     },
     {
-      "id": 3,
-      "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
-      "name": "Golden Potatoes",
-      "type": "Vegetable",
-      "price": 1.99,
-      "farmer": "Bob Brown",
-      "harvestDate": "2024-08-28T00:00:00.000Z"
-    },
-    {
-      "id": 4,
+      "id": "4",
       "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
       "name": "Strawberries",
       "type": "Fruit",
@@ -37,7 +195,7 @@
       "harvestDate": "2024-08-25T00:00:00.000Z"
     },
     {
-      "id": 5,
+      "id": "5",
       "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
       "name": "Sweet Corn",
       "type": "Grain",
@@ -46,7 +204,7 @@
       "harvestDate": "2024-08-31T00:00:00.000Z"
     },
     {
-      "id": 6,
+      "id": "6",
       "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
       "name": "Spinach",
       "type": "Leafy Green",
@@ -55,7 +213,7 @@
       "harvestDate": "2024-08-27T00:00:00.000Z"
     },
     {
-      "id": 7,
+      "id": "7",
       "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
       "name": "Red Bell Peppers",
       "type": "Vegetable",
@@ -64,7 +222,7 @@
       "harvestDate": "2024-09-01T00:00:00.000Z"
     },
     {
-      "id": 8,
+      "id": "8",
       "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
       "name": "Blueberries",
       "type": "Fruit",
@@ -73,7 +231,7 @@
       "harvestDate": "2024-08-24T00:00:00.000Z"
     },
     {
-      "id": 9,
+      "id": "9",
       "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
       "name": "Zucchini",
       "type": "Vegetable",
@@ -82,7 +240,7 @@
       "harvestDate": "2024-08-26T00:00:00.000Z"
     },
     {
-      "id": 10,
+      "id": "10",
       "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
       "name": "Cucumbers",
       "type": "Vegetable",
@@ -91,7 +249,7 @@
       "harvestDate": "2024-08-29T00:00:00.000Z"
     },
     {
-      "id": 11,
+      "id": "11",
       "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
       "name": "Peaches",
       "type": "Fruit",
@@ -100,7 +258,7 @@
       "harvestDate": "2024-08-22T00:00:00.000Z"
     },
     {
-      "id": 12,
+      "id": "12",
       "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
       "name": "Kale",
       "type": "Leafy Green",
@@ -109,7 +267,7 @@
       "harvestDate": "2024-08-21T00:00:00.000Z"
     },
     {
-      "id": 13,
+      "id": "13",
       "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
       "name": "Eggplants",
       "type": "Vegetable",
@@ -118,7 +276,7 @@
       "harvestDate": "2024-08-30T00:00:00.000Z"
     },
     {
-      "id": 14,
+      "id": "14",
       "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
       "name": "Pineapples",
       "type": "Fruit",
@@ -127,7 +285,7 @@
       "harvestDate": "2024-09-03T00:00:00.000Z"
     },
     {
-      "id": 15,
+      "id": "15",
       "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
       "name": "Green Beans",
       "type": "Vegetable",
@@ -136,7 +294,7 @@
       "harvestDate": "2024-09-02T00:00:00.000Z"
     },
     {
-      "id": 16,
+      "id": "16",
       "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
       "name": "Broccoli",
       "type": "Vegetable",
@@ -145,7 +303,7 @@
       "harvestDate": "2024-08-20T00:00:00.000Z"
     },
     {
-      "id": 17,
+      "id": "17",
       "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
       "name": "Watermelons",
       "type": "Fruit",
@@ -154,7 +312,7 @@
       "harvestDate": "2024-08-23T00:00:00.000Z"
     },
     {
-      "id": 18,
+      "id": "18",
       "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
       "name": "Raspberries",
       "type": "Fruit",
@@ -163,22 +321,13 @@
       "harvestDate": "2024-09-01T00:00:00.000Z"
     },
     {
-      "id": 19,
+      "id": "19",
       "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
       "name": "Butternut Squash",
       "type": "Vegetable",
       "price": 3.49,
       "farmer": "Daniel Walker",
       "harvestDate": "2024-08-19T00:00:00.000Z"
-    },
-    {
-      "id": 20,
-      "imgURL": "https://plus.unsplash.com/premium_photo-1671130295823-78f170465794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhaW5zfGVufDB8fDB8fHww",
-      "name": "Cherries",
-      "type": "Fruit",
-      "price": 8.99,
-      "farmer": "Nancy Martinez",
-      "harvestDate": "2024-08-18T00:00:00.000Z"
     }
   ]
 }

@@ -8,7 +8,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: var(--color-btn);
+  /* background-color: var(--color-btn); */
   font-weight: 600;
   width: max-content;
 }
@@ -16,6 +16,12 @@
 .primary {
   font-weight: 700;
   background-color: var(--color-btn);
+  color: var(--color-light--0);
+}
+
+.contarct {
+  font-weight: 700;
+  background-color: #fca53a;
   color: var(--color-light--0);
 }
 

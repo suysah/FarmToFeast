@@ -20,18 +20,24 @@ import Contarcts from "./components/Contarcts";
 import ProductList from "./components/ProductList";
 import AddCrop from "./components/AddCrop";
 import FarmerConnect from "./components/FarmerConnect";
+import MyCrop from "./components/MyCrops";
+
+const farmerId = "100";
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/farmer-dashboard" element={<FarmerDashboard />}>
+        <Route
+          path="/farmer-dashboard"
+          element={<FarmerDashboard userId={farmerId} />}
+        >
           <Route index element={<Navigate replace to="chat" />} />
           <Route path="chat" element={<Chat />} />
-          <Route path="myCrop" element={<AddCrop />} />
-          <Route path="addCrop" element={<AddCrop />} />
-          <Route path="contracts" element={<Contarcts />} />
+          <Route path="myCrop" element={<MyCrop userId={farmerId} />} />
+          <Route path="addCrop" element={<AddCrop userId={farmerId} />} />
+          <Route path="contracts" element={<Contarcts userId={farmerId} />} />
           <Route path="farmerConnect" element={<FarmerConnect />} />
         </Route>
         <Route path="/consumer-dashboard" element={<ConsumerDashboard />}>

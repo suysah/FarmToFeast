@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./ProductCard.module.css";
-import btnStyles from "../components/Button.module.css";
-import Button from "./Button ";
+// import btnStyles from "../components/Button.module.css";
+// import Button from "./Button ";
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product, children }) => {
   // console.log("from product caerd", product);
 
   return (
@@ -15,22 +15,19 @@ const ProductCard = ({ product }) => {
         <div className={styles.productDetails}>
           <h3>{product.name}</h3>
           <p>
-            <span style={{ fontWeight: 600 }}>Type:</span> {product.type}
+            <span style={{ fontWeight: 600 }}>Type : </span> {product.type}
           </p>
           <p>
-            <span style={{ fontWeight: 600 }}>Price:</span> ${product.price}
+            <span style={{ fontWeight: 600 }}>Price : </span> ${product.price}
           </p>
           <p>
-            <span style={{ fontWeight: 600 }}>Farmer:</span> {product.farmer}
+            <span style={{ fontWeight: 600 }}>Farmer : </span> {product.farmer}
           </p>
           <p>
-            <span style={{ fontWeight: 600 }}>Harvest Date:</span>{" "}
+            <span style={{ fontWeight: 600 }}>Harvest Date : </span>{" "}
             {new Date(product.harvestDate).toDateString()}
           </p>
-          <div className={styles.buttonContainer}>
-            <Button type="primary">Book</Button>
-            <Button type="primary">Details</Button>
-          </div>
+          <div className={styles.buttonContainer}>{children}</div>
         </div>
       </div>
     </main>

@@ -1,3 +1,19 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.listContainer ul {
+  text-decoration: none;
+  gap: 1rem;
+}
+
+.listItem {
+  list-style-type: none;
+}
+
 .ProductCard {
   display: flex;
   flex-direction: row;
@@ -18,7 +34,6 @@
   display: flex;
   justify-content: space-around;
   padding: 1rem 0 0;
-  gap: 1rem;
 }
 
 .productImg {
