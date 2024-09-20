@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Register.css";
-import PageNav from "../components/PageNav";
+import PageNav from "../components/common/PageNav";
 import { useNavigate } from "react-router-dom";
 
 const Register = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import PageNav from "../components/PageNav";
+import PageNav from "../components/common/PageNav";
 import styles from "./HomePage.module.css";
 
 const Home = () => {

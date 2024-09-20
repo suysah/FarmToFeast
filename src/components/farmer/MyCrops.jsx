@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import styles from "./MyCrop.module.css";
-import Button from "./Button ";
-import ProductCard from "./ProductCard";
+import Button from "../ui/Button ";
+import ProductCard from "../common/ProductCard";
 import { useOutletContext } from "react-router-dom";
 
 const MyCrops = ({ userId }) => {
@@ -12,19 +12,15 @@ const MyCrops = ({ userId }) => {
     if (farmerInfo && farmerInfo.crops) {
       setProducts(farmerInfo.crops);
     }
-  }, [farmerInfo]); // React to updates in farmerInfo
+  }, []);
 
-  // Function to handle deletion of a product
   async function handleDelete(id) {
     try {
-      // Send DELETE request to API
       const response = await fetch(`http://localhost:8000/products/${id}`, {
         method: "DELETE",
       });
 
       if (response.ok) {
-        // If API deletion is successful, update the local state
-
         console.log(`Product with id ${id} deleted successfully.`);
       } else {
         console.error(`Failed to delete product with id ${id}`);

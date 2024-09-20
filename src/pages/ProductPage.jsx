@@ -1,6 +1,6 @@
 import React from "react";
-import PageNav from "../components/PageNav";
-import ProductList from "../components/ProductList";
+import PageNav from "../components/common/PageNav";
+import ProductList from "../components/common/ProductList";
 
 const ProductPage = () => {
   return (

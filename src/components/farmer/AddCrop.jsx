@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import styles from "../components/AddCrop.module.css";
-import Button from "./Button ";
+import styles from "./AddCrop.module.css";
+import Button from "../ui/Button ";
 
 const AddCrop = ({ userId }) => {
   const [newProduct, setNewProduct] = useState({
@@ -34,10 +34,10 @@ const AddCrop = ({ userId }) => {
     // Fetch the farmer data to update crops
     const response = await fetch("http://localhost:8000/Farmer");
     const data = await response.json();
-    const farmer = data.find((farmer) => farmer.id === userId); // No need for template string
+    const farmer = data.find((farmer) => farmer.id === userId);
 
     if (farmer) {
-      const updatedCrops = [...farmer.crops, newProduct]; // Add new crop to farmer's crop list
+      const updatedCrops = [...farmer.crops, newProduct];
 
       const patchRes = await fetch(`http://localhost:8000/Farmer/${userId}`, {
         method: "PATCH",

@@ -1,8 +1,8 @@
 import { useState } from "react";
 import styles from "./Login.module.css";
-import PageNav from "../components/PageNav";
+import PageNav from "../components/common/PageNav";
 
-import Button from "../components/Button ";
+import Button from "../components/ui/Button ";
 
 export default function Login() {
   const [email, setEmail] = useState("jack@example.com");
@@ -32,8 +32,10 @@ export default function Login() {
           />
         </div>
 
-        <div >
-          <Button class="btn" type="primary">Login</Button>
+        <div>
+          <Button class="btn" type="primary">
+            Login
+          </Button>
         </div>
       </form>
     </main>

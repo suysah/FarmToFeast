@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import PageNav from "../components/PageNav";
+import PageNav from "../components/common/PageNav";
 import styles from "./ConsumerDashboard.module.css";
 import { NavLink, Outlet } from "react-router-dom";
-import Spinner from "../components/Spinner";
+import Spinner from "../components/ui/Spinner";
 
 const ConsumerDashboard = () => {
   const [consumerInfo, setConsumerInfo] = useState(null);

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import PageNav from "../components/PageNav";
+import PageNav from "../components/common/PageNav";
 import styles from "./FarmerDashboard.module.css";
 import { NavLink, Outlet } from "react-router-dom";
-import Spinner from "../components/Spinner";
+import Spinner from "../components/ui/Spinner";
 
 // const userId = 101;
 
@@ -28,10 +28,8 @@ const FarmerDashboard = ({ userId }) => {
       }
       fetchData();
     },
-    [userId]
+    [userId, farmerInfo]
   );
-
-  // console.log("url", farmerInfo.imgURL);
 
   return (
     <main>

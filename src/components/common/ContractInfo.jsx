@@ -1,5 +1,5 @@
-import styles from "../components/ContractInfo.module.css";
-import Button from "./Button ";
+import styles from "./ContractInfo.module.css";
+import Button from "../ui/Button ";
 
 const ContractInfo = ({ data }) => {
   const { price, farmername, consumername, name, cropid, quantity } = data;

@@ -14,13 +14,14 @@ import HomePage from "./pages/Homepage";
 import Login from "./pages/Login";
 import ProductPage from "./pages/ProductPage";
 import PageNotFound from "./pages/PageNotFound";
-import Chat from "./components/Chat";
-import CropUpdates from "./components/CropUpdates";
-import Contarcts from "./components/Contarcts";
-import ProductList from "./components/ProductList";
-import AddCrop from "./components/AddCrop";
-import FarmerConnect from "./components/FarmerConnect";
-import MyCrop from "./components/MyCrops";
+import Chat from "./components/chat/Chat";
+import CropUpdates from "./components/Consumer/CropUpdates";
+import Contarcts from "./components/common/Contarcts";
+import ProductList from "./components/common/ProductList";
+import AddCrop from "./components/farmer/AddCrop";
+import FarmerConnect from "./components/farmer/FarmerConnect";
+import MyCrop from "./components/farmer/MyCrops";
+import BookCrop from "./components/Consumer/BookCrop";
 
 const farmerId = "100";
 
@@ -43,12 +44,15 @@ function App() {
         <Route path="/consumer-dashboard" element={<ConsumerDashboard />}>
           <Route index element={<Navigate replace to="chat" />} />
           <Route path="chat" element={<Chat />} />
+          <Route path="book" element={<BookCrop />} />
           <Route path="products" element={<ProductList />} />
           <Route path="cropUpdates" element={<CropUpdates />} />
           <Route path="contracts" element={<Contarcts />} />
         </Route>
 
-        <Route path="/products" element={<ProductPage />} />
+        <Route path="/products" element={<ProductPage />}>
+          <Route path="book" element={<BookCrop />} />
+        </Route>
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="/chat" element={<Chat />} />

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import styles from "../components/Contracts.module.css";
+import styles from "./Contracts.module.css";
 import ContractInfo from "./ContractInfo";
 import { useOutletContext } from "react-router-dom";
 
